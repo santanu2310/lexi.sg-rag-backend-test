@@ -77,5 +77,24 @@ Navigate to the interactive API docs at:
 
 ---
 
+## Input Output Example
+### Input
+    {
+        "query": "Is an insurance company liable to pay compensation if a transport vehicle involved in an accident was being used without a valid permit?"
+    }
+### Output
+    {
+    "answer": "No, according to the context provided, the insurance company is not liable to pay compensation if a transport vehicle involved in an accident was being used without a valid permit. The use of a vehicle in a public place without a permit is considered a fundamental statutory infraction and cannot be equated with the absence of a license.\n",
+    "citations": [
+        {
+        "text": "relevant period, the insurer would not be allowed to avoid its liability towards the insured unless the said breach or breaches on the condition of driving licence is/are so fundamental as are found to have contributed to the cause of the accident. The Tribunals in interpreting the policy condition",
+        "source": "Amrit Paul Singh v. TATA AIG (SC NO ROUTE Permit insurance Co. Recover from Owner).docx"
+        },
+        {
+        "text": "Vehicles Act, 1988 Sections 166, 66 and 149 Accident - No permit - Liability to pay compensation - Vehicle at time of accident did not have permit - Use of vehicle in public place without permit is fundamental statutory infraction - Said situations cannot be equated with absence of licence or fake",
+        "source": "Amrit Paul Singh v. TATA AIG (SC NO ROUTE Permit insurance Co. Recover from Owner).docx"
+        }
+    ]
+    }
 
 _Happy coding!_
