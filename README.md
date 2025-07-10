@@ -63,6 +63,10 @@ python3 -m app.embed_docs --delete_old_embedding
 ```
 
 ---
+## Setup .env file
+    create a .env file inside app dir and add the template form example.venv with your credentials
+
+---
 
 ## 🏃 Run the Application
 
