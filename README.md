@@ -30,7 +30,8 @@ cd lexi.sg-rag-backend-test
 
 ```bash
 uv venv .venv
-uv pip sync
+uv pip sync requirements.txt
+uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ### 3. Activate the Virtual Environment
